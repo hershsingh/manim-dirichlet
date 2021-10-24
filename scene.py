@@ -9,7 +9,6 @@ from matplotlib import pyplot as plt
 import random
 from manim import *
 
-
 class BezierCurve:
     def __init__(self, x1, dx1, x2, dx2):
         self.points = [x1, x2]
